@@ -40,7 +40,7 @@ export default class ListMap extends Component {
       >
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+          url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
         {markers}
       </Map>
